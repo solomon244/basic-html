@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&display=swap');
+/* GENERAL STYLING */
+:root{
+    --primary-color: blue;
+    --grey:#cac7c7;
+    --overlay:#0000009c;
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    line-height: 1.5;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+    border-radius: 5px;
+    display: block;
+    object-fit: cover;
+}
+.center{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding:5rem 0 5rem 0;
+}
+.bg-primary{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* HEADER SECTION */
+header{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+#logo{
+    color:white;
+}
+.header{
+    background-color: var(--primary-color)
+}
+nav li a{
+    color: #ffffffd8;
+    padding:0.0625em;
+    display: block;
+}
+nav li a:hover{
+    color:white;
+    background-color:#1c99e7;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* HOME */
+
+.home p{
+    font-size: 2rem;
+    margin-top: 1em;
+    font-weight: 300;
+}
+
+#home{
+    background: var(--primary-color);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.about p{
+    font-size: 15px;
+    color: #cac7c7;
+}
+.about-one p{
+    font-size: 35px;
+    
+}
+/* HEADINGS */
+h1{
+    font-size: 4.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+h2{
+    font-size: 3rem;
+    padding: 0.2em;
+    margin-bottom: 1em;
+    line-height: 1.2;
+    font-weight: 600;
+}
+h3{
+    font-size: 2.5rem;
+}
+/* BUTTONS */
+
+.btn:hover{
+    cursor: pointer;
+}
+.btn:active{
+    transform:translateY(2px);
+}
+
+.btn-started{
+    margin-bottom: 1em;
+    background-color: white;
+    color: blue;
+    font-size: 25px;
+}
+.btn-started:hover{
+    background-color: blue;
+    color: white;
+    border-color: white;
+}
+.watch-intro {
+    color: white;
+    background-color: white;
+    text-align: center;
+}
+/* MEDIA QUERIES */
+@media (min-width:480px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+    }
+
+    nav ul{
+        display: flex;
+    }
+    nav li a{
+        color: white;
+        margin-right: 0.5em;
+        font-weight: 600;
+    }
+
+}
+
+@media (min-width:720px) {
+    h1{
+        font-size: 5rem;
+    }
+    h2,h3{
+        font-size: 3.5rem;
+    }
+    .about-one,.about{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media (min-width:900px) {
+    nav li a{
+        margin-right: 1em;
+    }
+    .about-one,.about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-item-one,.grid-item-two{
+        margin: auto;
+    }
+    h3{
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .center{
+        max-width: 1200px;
+        margin: auto;
+    }
+    header{
+        justify-content: space-evenly;
+    }
+}
