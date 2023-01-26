@@ -101,6 +101,16 @@ h3{
     font-size: 2.5rem;
 }
 /* BUTTONS */
+.fa-circle-play{
+    padding-left: 35px;
+    font-size: 30px;
+    color: white;
+
+}
+.btn-who, .btn-vision, .btn-history{
+    padding: 10px;
+    margin: 15px;
+}
 
 .btn:hover{
     cursor: pointer;
@@ -115,13 +125,21 @@ h3{
     color: blue;
     font-size: 25px;
 }
+.btn-who:hover, .btn-vision:hover, .btn-history:hover{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+
+}
 .btn-started:hover{
     background-color: blue;
     color: white;
-    border-color: white;
+    border-color: rgb(58, 41, 41);
+    box-shadow: none;
 }
 .watch-intro {
     color: white;
+    font-size: 60px;
     background-color: white;
     text-align: center;
 }
