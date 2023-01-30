@@ -199,6 +199,7 @@ h3{
     header{
         justify-content: space-evenly;
     }
+<<<<<<< HEAD
     .grid-cont {
         display: grid;
         grid-template-columns: 150px auto 150px;
@@ -241,18 +242,31 @@ h3{
     .grid-container {
         display: grid;
         column-gap: 5px;
+=======
+    .grid-container {
+        display: grid;
+        column-gap: 20px;
+>>>>>>> 8f8922f28de1f4ea00b2dcbfc4241b5f19cafd69
         grid-template-columns: auto auto;
         background-color: white;
         padding: 5px;
     } 
+<<<<<<< HEAD
 
     .grid-item {
         background-color: rgba(255, 255, 255, 0.8);
         border: 1px black;
+=======
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px black;
+        
+>>>>>>> 8f8922f28de1f4ea00b2dcbfc4241b5f19cafd69
         padding: 20px;
         font-size: 15px;
         margin-bottom: 80px;
     }
+<<<<<<< HEAD
     .fa-phone,.fa-location-dot{
         background-color: blue;
         padding: 10px;
@@ -297,6 +311,9 @@ h3{
     display: flex;
     justify-content: center;
     border-radius: 50%;
+=======
+    
+>>>>>>> 8f8922f28de1f4ea00b2dcbfc4241b5f19cafd69
 }
 .map {
     margin-top: -100px
@@ -333,4 +350,8 @@ h3{
 }
 .footer-support a:hover, .footer-solutions a:hover{
     color:blue;
+<<<<<<< HEAD
 }}
+=======
+}
+>>>>>>> 8f8922f28de1f4ea00b2dcbfc4241b5f19cafd69
