@@ -1,0 +1,51 @@
+
+html, body {
+    background-color: rgb(0, 89, 255);
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 360px;
+}
+h1{
+    color: white;
+    padding: 15px;
+    margin: 0px;
+}
+.text{
+    color: yellow;
+    font-size: 14px;
+}
+.enter{
+    color: green;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#addToDo {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.to-dos {
+    margin-top: 25px;
+}
